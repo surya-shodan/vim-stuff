@@ -1,0 +1,6 @@
+# For ropeproject files in vim
+.ropeproject/
+
+
+# netrwhist for whatever reason
+.netrwhist

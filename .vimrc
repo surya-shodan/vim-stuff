@@ -3,6 +3,9 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+"Let pathogen call the HelpTags automatically
+call pathogen#helptags()
+
 "Black to grey approximation for colorscheme-jellybeans
 let g:jellybeans_use_lowcolor_black = 0
 
