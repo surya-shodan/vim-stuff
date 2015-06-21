@@ -17,7 +17,7 @@ color molokai
 
 "Airline specific commands
 let g:airline_powerline_fonts = 1
-let g:airline_theme='jellybeans'
+let g:airline_theme='base16'
 
 "Specific to NERDTree
 autocmd vimenter * NERDTree
@@ -28,5 +28,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "Pydoc in vertical split
 let g:pydoc_open_cmd = 'vsplit' 
+
+"Remove folding by default, just use zi
+set nofoldenable
 
 
