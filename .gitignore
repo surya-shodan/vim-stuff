@@ -1,6 +1,8 @@
 # For ropeproject files in vim
 .ropeproject/
 
-
 # netrwhist for whatever reason
 .netrwhist
+
+# temporary swap files for vim
+*.swp

@@ -35,3 +35,4 @@ let g:pydoc_open_cmd = 'vsplit'
 "Remove folding by default, just use zi
 set nofoldenable
 
+
