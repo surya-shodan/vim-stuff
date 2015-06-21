@@ -9,8 +9,11 @@ let g:jellybeans_use_lowcolor_black = 0
 "required for terminal color override
 set t_Co=256
 
+"Specific to Molokai
+let g:rehash256 = 1
+
 "set colorscheme here
-color jellybeans 
+color molokai
 
 "Airline specific commands
 let g:airline_powerline_fonts = 1
@@ -25,3 +28,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "Pydoc in vertical split
 let g:pydoc_open_cmd = 'vsplit' 
+
+
