@@ -35,3 +35,8 @@ let g:pydoc_open_cmd = 'vsplit'
 "Remove folding by default, just use zi
 set nofoldenable
 
+" Pymode code completion and roping
+let g:pymode_rope_completion = 1
+let g:pymode_rope_complete_on_dot = 1
+let g:pymode_rope_autoimport = 1
+let g:pymode_rope_autoimport_import_after_complete = 1
