@@ -16,11 +16,12 @@ set t_Co=256
 let g:rehash256 = 1
 
 "set colorscheme here
-color molokai
+set background=dark
+colorscheme ir_black
 
 "Airline specific commands
 let g:airline_powerline_fonts = 1
-let g:airline_theme='base16'
+let g:airline_theme='murmur'
 
 "Specific to NERDTree
 autocmd vimenter * NERDTree
