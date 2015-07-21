@@ -11,17 +11,19 @@ let g:jellybeans_use_lowcolor_black = 0
 
 "required for terminal color override
 set t_Co=256
+let &t_AB="\e[48;5;%dm"
+let &t_AF="\e[38;5;%dm"
 
 "Specific to Molokai
 let g:rehash256 = 1
 
 "set colorscheme here
 set background=dark
-colorscheme ir_black
+color molokai
 
 "Airline specific commands
 let g:airline_powerline_fonts = 1
-let g:airline_theme='murmur'
+let g:airline_theme='kalisi'
 
 "Specific to NERDTree
 autocmd vimenter * NERDTree
@@ -47,3 +49,6 @@ let g:pymode_rope_autoimport_import_after_complete = 1
 
 " Added support vertical python-doc
 let g:pymode_doc_vertical = 1
+
+" Change the default 80 character limit demarcation color
+hi ColorColumn guibg=#2d2d2d ctermbg=246
