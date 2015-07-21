@@ -40,3 +40,9 @@ let g:pymode_rope_completion = 1
 let g:pymode_rope_complete_on_dot = 1
 let g:pymode_rope_autoimport = 1
 let g:pymode_rope_autoimport_import_after_complete = 1
+
+" Constant code checking
+" let g:pymode_lint_on_fly = 1
+
+" Added support vertical python-doc
+let g:pymode_doc_vertical = 1
