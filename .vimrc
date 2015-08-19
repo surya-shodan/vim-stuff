@@ -34,22 +34,22 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 "Pydoc in vertical split
-let g:pydoc_open_cmd = 'vsplit' 
+" let g:pydoc_open_cmd = 'vsplit' 
 
 "Remove folding by default, just use zi
 set nofoldenable
 
 " Pymode code completion and roping
-let g:pymode_rope_completion = 1
-let g:pymode_rope_complete_on_dot = 1
-let g:pymode_rope_autoimport = 1
-let g:pymode_rope_autoimport_import_after_complete = 1
+" let g:pymode_rope_completion = 1
+" let g:pymode_rope_complete_on_dot = 1
+" let g:pymode_rope_autoimport = 1
+" let g:pymode_rope_autoimport_import_after_complete = 1
 
 " Constant code checking
 " let g:pymode_lint_on_fly = 1
 
 " Added support vertical python-doc
-let g:pymode_doc_vertical = 1
+" let g:pymode_doc_vertical = 1
 
 " Change the default 80 character limit demarcation color
 hi ColorColumn guibg=#2d2d2d ctermbg=246
