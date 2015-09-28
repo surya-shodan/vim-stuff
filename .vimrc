@@ -53,3 +53,6 @@ set nofoldenable
 
 " Change the default 80 character limit demarcation color
 hi ColorColumn guibg=#2d2d2d ctermbg=246
+
+" Remove the damn Pymode rope project
+" let g:pymode_rope_lookup_project = 0
