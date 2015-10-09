@@ -77,3 +77,5 @@ set expandtab
 " enable all python syntax highlighting features
 let python_highlight_all = 1
 
+" Set coloumn highlighter for long lines
+set colorcolumn=80
