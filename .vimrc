@@ -56,3 +56,24 @@ hi ColorColumn guibg=#2d2d2d ctermbg=246
 
 " Remove the damn Pymode rope project
 " let g:pymode_rope_lookup_project = 0
+
+
+" Stuff for Python dev
+"
+syntax enable
+
+" Set line numbers
+set number
+
+" set tabs to four spaces
+set ts=4
+
+" Indent when moving to the next line
+set autoindent
+
+" Expand tabs to spaces
+set expandtab
+
+" enable all python syntax highlighting features
+let python_highlight_all = 1
+
