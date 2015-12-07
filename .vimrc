@@ -1,4 +1,4 @@
-"Pathogen recommended additions
+"Pathogen recommended additions, Autoloads new plugins in bundle/
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -65,9 +65,6 @@ syntax enable
 " Set line numbers
 set number
 
-" set tabs to four spaces
-set ts=4
-
 " Indent when moving to the next line
 set autoindent
 
@@ -79,3 +76,7 @@ let python_highlight_all = 1
 
 " Set coloumn highlighter for long lines
 set colorcolumn=80
+
+" set tabs to four spaces
+set ts=4 sw=4
+        
