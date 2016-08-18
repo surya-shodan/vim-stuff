@@ -11,16 +11,18 @@ call pathogen#helptags()
 let g:jellybeans_use_lowcolor_black = 0
 
 "required for terminal color override
-set t_Co=256
-let &t_AB="\e[48;5;%dm"
-let &t_AF="\e[38;5;%dm"
+" set t_Co=256
+" let &t_AB="\e[48;5;%dm"
+" let &t_AF="\e[38;5;%dm"
 
 "Specific to Molokai
-let g:rehash256 = 1
+" let g:rehash256 = 1
 
 "set colorscheme here
-set background=dark
-color molokai
+" set background=dark
+" color molokai
+colorscheme jellybeans
+let g:ghostbuster_italics=1
 
 "Airline specific commands
 let g:airline_powerline_fonts = 1
