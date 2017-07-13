@@ -88,3 +88,6 @@ let g:pymode_rope = 0
         
 " Set Ttyfast
 set ttyfast
+
+" Toggle Autoindent
+set pastetoggle=<F3>
